@@ -1,0 +1,45 @@
+body
+{
+    background-color: seagreen;
+}
+h1{
+color: steelblue;
+background-color: wheat;
+font-size: large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#show_sketch
+{
+float: right;
+
+}
+canvas
+{
+border:5px rgba(76, 201, 197, 0.901);
+border-radius: 20px;
+animation-name:popp;
+animation-duration:4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+@keyframes popp
+{
+    from
+    {
+    box-shadow: 1px 1px 39px rgba(203, 222, 64, 0.897);  
+    
+    }
+    to
+    {
+    box-shadow: 1px 1px 39px rgba(230, 141, 193, 0.777);  
+    
+    }
+        
+}
+p
+{
+padding-top: 10px;
+font-size: larger;
+
+
+}
